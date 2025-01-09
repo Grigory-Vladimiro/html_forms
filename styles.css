@@ -1,7 +1,7 @@
-/* common form style */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: green;
     margin: 0;
     padding: 20px;
 }
@@ -34,7 +34,7 @@ input[type="email"],
 input[type="number"],
 select,
 textarea {
-    width: 100%;
+    width: calc(100% - 20px);
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -53,8 +53,8 @@ textarea {
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
+    background-color: green;
+    color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -65,17 +65,17 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: greenyellow;
 }
 
-/* questions */
+
 p {
     margin-top: 20px;
     font-weight: bold;
     color: #555;
 }
 
-/* positioning */
+
 input[type="checkbox"] + label,
 input[type="radio"] + label {
     display: inline-block;
