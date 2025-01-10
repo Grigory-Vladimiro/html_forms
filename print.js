@@ -11,6 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
             data[key] = value;
         });
 
-        console.log("Survey From:", data);
+        console.log("Survey Form:", data);
     });
 });
